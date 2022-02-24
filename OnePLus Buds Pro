@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnePlus Buds Pro</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>OnePlus Buds Pro</h1>
+            <button type="button">Per saperne di più</button> 
+            <img width="" height="" src="" alt=""/>
+        </section>
+
+        <section>
+
+            <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images-->
+    <div class="mySlides fade">
+      <img src="assets/budspro 2.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="budspro 3.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="budspro 4.jpg" style="width:100%">
+    </div>
+
+        </section>
+  
+    </main>
+    
+</body>
+</html>
+
+   
