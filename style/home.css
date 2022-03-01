@@ -1,10 +1,14 @@
+body{
+    background-color: #f6f6f6;
+    margin: 0;
+}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-li, a {
+header li, a {
     font-family: Roman-55, "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
     font-feature-settings: "salt";
     font-size: 16px;
@@ -71,4 +75,54 @@ header{
         margin-right: auto;
         margin-left: auto;
     }
+}
+
+/*footer*/
+
+footer, footer hr{
+    background-color: #f6f6f6;
+    margin: 0;
+    font-family: Roman-55, "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+    font-feature-settings: "salt";
+}
+
+/*first container*/
+
+
+div.container_footer{
+    display: grid;
+    grid-template-columns: 115px repeat(5, 1fr) 100px;
+    padding-top: 11px;
+    height: 380px;
+    margin-left: 0;
+    background-color: #ffffff;
+
+}
+
+div.container_footer a{
+    text-decoration: none;
+    color: rgba(0,0,0,60% );
+}
+
+div.container_footer a:hover{
+    color: #000000;
+}
+
+div.container_footer ul, div.container_footer ul li {
+    list-style-type: none;
+    padding-left: 0%;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+div div.category_box{
+    font-family: Roman-55, "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 38px;
+}
+
+div div.category_box p{
+    line-height: 36px;
 }
