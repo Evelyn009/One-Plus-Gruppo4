@@ -127,3 +127,69 @@ div div.category_box{
 div div.category_box p{
     line-height: 36px;
 }
+
+/*second container*/
+
+
+div#social_contacts, div#social_contacts>ul{
+    height: 80px;
+    background-color:#ffffff;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1190px auto;
+}
+
+a.social_button, a.social_button>img, li.social_button{
+    height: 20px;
+    width: 20px;
+    opacity: 0.8;
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 9px;
+}
+
+a.social_button>img:hover{
+    opacity: 1;
+}
+
+/*third container*/
+
+div.bottom_container{
+    height: 160px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+div.lang, div.links, div.copyright{
+    margin-top: 25px;
+    margin-left: 15%;
+}
+
+footer div.lang a{
+    text-decoration: none;
+    color: #000000;
+}
+
+footer div.links a, footer div.links ul, footer div.links li{
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;;
+    color: #000000;
+    font-size: 12px;
+    padding-right: 25px;
+}
+
+footer div.copyright{
+    color: #999999;
+    font-size: 12px;
+}
+
+footer div.icon{
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 125px;
+}
