@@ -185,3 +185,189 @@ footer {
   width: 20px;
   height: 20px;
 }
+
+/* Div footer - inferiore */
+
+.contenitore-footer-2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  background: #f9f9f9;
+  min-height: 200px;
+  padding: 0;
+}
+
+.c-div-centrale {
+  display: flex;
+  gap: 0 5vw;
+  padding-left: 20px;
+}
+.c-div-centrale ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.c-div-centrale a {
+  text-decoration: none;
+  color: grey;
+}
+
+.c-div-centrale li {
+  padding: 8px 0;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.c-div-centrale ul li:first-child {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.c-div-centrale a:hover {
+  color: #000;
+}
+
+.c-contact-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.c-contact-us img {
+  height: 27px;
+  width: 210px;
+}
+
+.cl-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cl-svg svg {
+  width: 40px;
+  height: 40px;
+  padding: 0 5px;
+}
+
+.cl-svg span:nth-child(2) {
+  color: #0099cc;
+}
+
+.cl-svg span:nth-child(3) {
+  padding: 0 18px;
+  font-size: 14px;
+}
+
+.cl-svg span:nth-child(4) {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  width: 10px;
+  height: 10px;
+}
+
+/*  social div-contact-icons */
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icons * svg {
+  fill: grey;
+}
+
+.contact-icons svg:hover {
+  fill: #000;
+}
+
+.facebook a:visited svg {
+  fill: #000;
+}
+
+.instagram a:visited svg {
+  fill: #000;
+}
+
+.twitter a:visited svg {
+  fill: #000;
+}
+
+.contact-icons a {
+  text-decoration: none;
+}
+
+/* Inizio CSS div footer inferiore */
+
+.contenitore-footer-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.info-valuta {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+.valuta {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.valuta a {
+  text-decoration: none;
+  color: #000;
+}
+
+.valuta ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+.valuta li {
+  list-style-type: none;
+  padding: 0 20px;
+}
+
+.valuta ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: OnePlus Sans Text, Roman-55, Helvetica Neue, Helvetica, Arial,
+    sans-serif, system-ui;
+  font-feature-settings: "salt";
+}
+
+.valuta ul span {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  width: 10px;
+  height: 10px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.copyright span {
+  color: #999999;
+  font-size: 13px;
+}
