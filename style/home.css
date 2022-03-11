@@ -1,0 +1,419 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)*/
+
+
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, 
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+       margin: 0;
+       padding: 0;
+       border: 0;
+       font-size: 100%;
+       font: inherit;
+       vertical-align: baseline;
+   }
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+       display: block;
+   }
+   body {
+       line-height: 1;
+       font-family: Roman-55, "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+       font-feature-settings: "salt";
+   }
+   ol, ul {
+       list-style: none;
+   }
+   blockquote, q {
+       quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+       content: none;
+   }
+   table {
+       border-collapse: collapse;
+       border-spacing: 0;
+   }
+
+body{
+    background-color: #f6f6f6;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header li, a {
+    font-family: Roman-55, "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+    font-feature-settings: "salt";
+    font-size: 16px;
+    color: #101010;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo-header{
+    cursor: pointer;
+    justify-content: flex-start;
+    margin-left: -11%;
+    margin-top: -1%;
+}
+
+.menu-header li{
+    display:inline-flex;
+    flex-wrap: nowrap;
+    padding: 0px 20px;
+}
+
+.container-logo{
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    margin-right: -11%;
+}
+
+.logo-account img{
+    height: 25px;
+    margin: 0px 10px;
+}
+
+.label-new {
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #101010;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .container-logo {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .menu-header {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo-header {
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+    /*main*/
+    /* Prima immagine*/
+ main .flex-container1{
+    height: 680px;
+    width: 100%;
+    background: url("/assets/img/image1.jpeg") center;
+    background-repeat: no-repeat;  
+    }
+main .flex-items{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:flex-start;
+    align-content:center;
+    padding-left: 27%;
+    padding-top: 16%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.2;
+}
+main .more{
+    font-size: 48px;
+}
+main .lm{
+    text-decoration: underline !important;
+    margin-top: 30px;
+    color: #fff;
+}
+    /*Fine prima img*/
+
+    /*Seconda immagine*/
+main .flex-container2{
+    height: 680px;
+    background: url("/assets/img/image2.jpeg") center;
+    background-repeat: no-repeat;
+}
+main .flex-items2{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:flex-start;
+    align-content:center;
+    padding-left: 53%;
+    padding-top: 14%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.2;
+}
+    /*Fine seconda img*/
+
+    /*Terza immagine*/
+main .flex-conteiner_3{
+    background: url("/assets/img/image3.jpeg") center;
+    height: 680px;
+    background-repeat: no-repeat;
+}
+main .flex-items3{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:flex-start;
+    align-content:center;
+    padding-left: 53%;
+    padding-top: 14%;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.2;
+}
+main .lm1{
+    color: #000;
+    text-decoration: underline !important;
+    margin-top: 30px;
+}
+    /*Fine terza img*/
+/*svg*/
+main .svg{
+    display: flex;
+    justify-content: center;
+    height: 315px;
+    background-color: #fff;
+    
+    
+}
+main .svg_img{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+main .img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 380px;
+    height: 215px;
+    padding: 0px 40px;
+}
+main .img p{
+    text-align: center;
+    color: #666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+main .img a{
+    padding-top: 5px;
+    color: #000;
+    text-decoration: underline;
+}
+
+main .android{
+    height: 65px;
+
+}
+/*Fine SVG*/
+
+/*Newsletter*/
+main .newsletter{
+    background: url("/assets/img/background.jpeg");
+    height: 375px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+main .conteiner-sing{
+    display: flex;
+    line-height: 45px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2.5%;
+}
+main .sing{
+    text-align: center;
+    flex-direction: column;
+    font-size: 48px;
+    width: 540px;
+    
+}
+main .sing1{
+    font-size: 18px;
+}
+main .conteiner-email{
+    display: flex;
+    line-height: 45px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color: #f6f6f6;
+}
+main .email input{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+    width: 412px;
+    height: 40px;
+    border: 0.1px solid white;
+    color:inherit;
+    
+}
+main .mk a{
+    font-size: 12px;
+    text-decoration: underline;
+}
+main .mk{
+    font-size: 12px;
+    padding-top: 2.8%;
+    text-align: center;
+    flex-direction: column;
+}
+/*Fine newsletter*/
+
+/*footer*/
+
+footer, footer hr{
+    background-color: #f6f6f6;
+    margin: 0;
+    font-family: Roman-55, "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+    font-feature-settings: "salt";
+}
+
+/*first container*/
+
+
+div.container_footer{
+    display: grid;
+    grid-template-columns: 115px repeat(5, 1fr) 100px;
+    padding-top: 11px;
+    height: 380px;
+    margin-left: 0;
+    background-color: #ffffff;
+
+}
+
+div.container_footer a{
+    text-decoration: none;
+    color: rgba(0,0,0,60% );
+}
+
+div.container_footer a:hover{
+    color: #000000;
+}
+
+div.container_footer ul, div.container_footer ul li {
+    list-style-type: none;
+    padding-left: 0%;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+div div.category_box{
+    font-family: Roman-55, "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 38px;
+}
+
+div div.category_box p{
+    line-height: 36px;
+}
+
+/*second container*/
+
+
+div#social_contacts, div#social_contacts>ul{
+    height: 80px;
+    background-color:#ffffff;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1190px auto;
+}
+
+a.social_button, a.social_button>img, li.social_button{
+    height: 20px;
+    width: 20px;
+    opacity: 0.8;
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 9px;
+}
+
+a.social_button>img:hover{
+    opacity: 1;
+}
+
+/*third container*/
+
+div.bottom_container{
+    height: 160px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+div.lang, div.links, div.copyright{
+    margin-top: 25px;
+    margin-left: 15%;
+}
+
+footer div.lang a{
+    text-decoration: none;
+    color: #000000;
+}
+
+footer div.links a, footer div.links ul, footer div.links li{
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;;
+    color: #000000;
+    font-size: 12px;
+    padding-right: 25px;
+}
+
+footer div.copyright{
+    color: #999999;
+    font-size: 12px;
+}
+
+footer div.icon{
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 125px;
+}
